@@ -3,6 +3,7 @@ import Home from './Components/Home/Home';
 import Footer from './Layout/Components/Footer';
 
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import Gallery from './Components/Gallery/Gallery';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
                 <Redirect to="/home" />
             </Route>
  <Route exact path='/home' component={Home} />
-<Home />
+ <Route path="/gallery" component={Gallery} />
+
 </Switch>
 <Footer />
     </div>

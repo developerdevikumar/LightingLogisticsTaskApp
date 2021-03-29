@@ -5,7 +5,7 @@ function Banner() {
         <div>
 
 <div className="wrapper bgded overlay"  style={{
-         backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`, width:'1550px',height:'650px',color:'white',
+         backgroundImage: `url("https://www.nicesnippets.com/image/imgpsh_fullsize.png")`, width:'1890px',height:'650px',color:'white',
       }}>
   <div id="pageintro" className="hoc clear">
     <article>

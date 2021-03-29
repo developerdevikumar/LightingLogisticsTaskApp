@@ -11,10 +11,10 @@ function Navbar() {
         </div>
         <nav id="mainav" className="fl_right">
           <ul className="clear">
-            <li class="active"><Link to="/home">Home</Link></li>
+            <li ><Link to="/home">Home</Link></li>
 
 
-            <li><a href="#">Gallery</a></li>
+            <li><Link to="/gallery">Gallery</Link></li>
           </ul>
         </nav>
       </header>

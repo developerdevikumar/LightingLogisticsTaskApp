@@ -2,32 +2,33 @@ import React from 'react'
 import CardItem from './CardItem'
 function CardList() {
     return (
-        // <div class="wrapper row2">
-        // <section id="introblocks" class="hoc container clear">
-        //   <ul class="nospace group">
-        //     <li class="one_third first">
+        // <div className="wrapper row2">
+        // <section id="introblocks" className="hoc container clear">
+        //   <ul className="nospace group">
+        //     <li className="one_third first">
 
-        //     <CardItem imageclass="fas fa-hand-peace" text="hi" details ="fdbg" />
-        //     <CardItem imageclass="fas fa-hand-peace" text="hi" details ="fdbg" />
+        //     <CardItem imageclassName="fas fa-hand-peace" text="hi" details ="fdbg" />
+        //     <CardItem imageclassName="fas fa-hand-peace" text="hi" details ="fdbg" />
         //     </li>
         //     </ul>
         //     </section>
 
         // </div>
-        <div class="wrapper row2">
-  <section id="introblocks" class="hoc container clear">
+        <div className="wrapper row2">
+  <section id="introblocks" className="hoc container clear">
 
-    <ul class="nospace group">
-      <li class="one_third first">
-       <CardItem imageclass="fas fa-hand-peace" text="hi" details ="React" />
+    <ul className="nospace group">
+      <li className="one_third first">
 
-      </li>
-      <li class="one_third">
-     <CardItem imageclass="fas fa-microphone" text="vanakam" details ="Angular" />
+       <CardItem className="fas fa-hand-peace" text="Hi Learn with Manoj" details ="React" />
 
       </li>
-      <li class="one_third">
-      <CardItem imageclass="fas fa-moon" text="Namasthe" details ="Vue" />
+      <li className="one_third">
+     <CardItem imageclassName="fas fa-microphone" text="Hi Learn with Kumar" details ="Angular" />
+
+      </li>
+      <li className="one_third">
+      <CardItem imageclassName="fas fa-moon" text="Hi Learn with Team" details ="Vue" />
 
       </li>
     </ul>
