@@ -1,12 +1,12 @@
 import Header from './Layout/Components/Header';
-import Home from './Components/Home/Home';
+import Home from './Screens/Home/Home';
 import Footer from './Layout/Components/Footer';
 
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
-import Gallery from './Components/Gallery/Gallery';
-import SidebarLeft from './Components/SidebarLeft/SidebarLeft';
-import Grid from './Components/Grid/Grid';
-import Fonts from './Components/FontsIcons/Components/Fonts';
+import Gallery from './Screens/Gallery/Gallery';
+import SidebarLeft from './Screens/SidebarLeft/SidebarLeft';
+import Grid from './Screens/Grid/Grid';
+import Fonts from './Screens/FontsIcons/Components/Fonts';
 
 
 function App() {
@@ -33,5 +33,7 @@ function App() {
     </Router>
   );
 }
+
+
 
 export default App;
