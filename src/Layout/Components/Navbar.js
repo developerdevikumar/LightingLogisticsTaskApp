@@ -15,10 +15,10 @@ function Navbar() {
 
 
             <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/sidebar-left">SidebarLeft</Link></li>
+            {/* <li><Link to="/sidebar-left">SidebarLeft</Link></li>
             <li><Link to="/sidebar-right">SidebarGight</Link></li>
             <li><Link to="/grid">Grid</Link></li>
-            <li><Link to="/fonts">Fonts&Icons</Link></li>
+            <li><Link to="/fonts">Fonts&Icons</Link></li> */}
 
           </ul>
         </nav>

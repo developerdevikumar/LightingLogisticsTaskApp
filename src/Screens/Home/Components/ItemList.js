@@ -12,12 +12,17 @@ function ItemList() {
     </div>
     <ul class="nospace group overview btmspace-80">
 
-<Item iconclass="fas fa-motorcycle" tittle="p1" description="p1descri" />
-<Item iconclass="fas fa-newspaper" tittle="p2" description="p2descri" />
-<Item iconclass="fas fa-motorcycle" tittle="p3" description="p3descri" />
-<Item iconclass="fas fa-motorcycle" tittle="p4" description="p4descri" />
-<Item iconclass="fas fa-motorcycle" tittle="p5" description="p5descri" />
-<Item iconclass="fas fa-motorcycle" tittle="p6" description="p6descri" />
+<Item  tittle="gjhhjghjghkk" description="iouiouy87truytuytytrffr5ty" >
+<i class="fas fa-newspaper"></i>
+</Item>
+
+<Item className="fas fa-newspaper" tittle="gyghjhhugtfrttygvh" description="kbjhkjhjhyugfytvvh" description="KKCFLDWKJFKMLSDJFKIOK  ">
+<i class="fas fa-newspaper"></i>
+</Item>
+<Item className="fas fa-motorcycle" tittle="gyuguhugytfygtyuyg" description="poiuytrdyfghjhytdrsetdfcgvhtcfghb" />
+<Item className="fas fa-motorcycle" tittle="kjhgfcghjgutfyghvjfychg" description="yughtfuy7tuyy8" />
+<Item className="fas fa-motorcycle" tittle="uiiuhugyi78t67tuyu" description="ycftyguygguyguuyg" />
+<Item className="fas fa-motorcycle" tittle="uiyugjhgyughughvghj" description="hifguyftgugfgvhjgv" />
 
 </ul>
     <footer class="center"><a class="btn" href="#">Text button </a></footer>

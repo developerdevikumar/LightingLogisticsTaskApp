@@ -5,7 +5,7 @@ function Item({description, iconclass, tittle}) {
 
       <li class="one_third">
         <article>
-      <div class="clear"><a href="#"><i class={`"fas fa-motorcycle"${iconclass}`}></i></a>
+      <div class="clear"><a href="#"></a>
             <h6 class="heading">{tittle}</h6>
           </div>
           <p>{description}</p>

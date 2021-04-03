@@ -33,7 +33,7 @@ function Header() {
           </div>
         </div>
       </div>
-<Navbar />
+{/* <Navbar /> */}
 
     </React.Fragment>
     )

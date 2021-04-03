@@ -7,6 +7,7 @@ import Gallery from './Screens/Gallery/Gallery';
 import SidebarLeft from './Screens/SidebarLeft/SidebarLeft';
 import Grid from './Screens/Grid/Grid';
 import Fonts from './Screens/FontsIcons/Components/Fonts';
+import Navbar from './Layout/Components/Navbar';
 
 
 function App() {
@@ -14,18 +15,18 @@ function App() {
     <Router>
     <div>
 <Header />
-
+<Navbar />
 <Switch>
 <Route exact path="/">
                 <Redirect to="/home" />
             </Route>
  <Route exact path='/home' component={Home} />
  <Route path="/gallery" component={Gallery} />
- <Route path="/sidebar-left" component={SidebarLeft} />
+ {/* <Route path="/sidebar-left" component={SidebarLeft} />
 
  <Route path="/grid" component={Grid} />
 
- <Route path="/fonts" component={Fonts} />
+ <Route path="/fonts" component={Fonts} /> */}
 </Switch>
 <Footer />
     </div>
