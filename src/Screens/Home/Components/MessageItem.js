@@ -1,27 +1,17 @@
 import React from 'react'
-import MessageList from './MessageList'
 
-function MessageItem() {
+function MessageItem({tittle,heading,quate}) {
     return (
-        <div class="wrapper bgded overlay" >
-        <section class="hoc container clear">
-          <div class="center btmspace-80">
-          <h6 class="heading underline font-x2">Integer sodales ultrices</h6>
-          </div>    <ul id="testimonials" class="nospace group btmspace-80">
-            <li class="one_half first">
-          <MessageList tittle="ndjnjdnjd" heading="bdbjhnedhgbdbh" quate="ojdoijduiuifj" />
-                </li>
-                <li class="one_half">
-            <MessageList tittle="ndjnjdnjd" heading="bdbjhnedhgbdbh" quate="ojdoijduiuifj" />
-            </li>
-                </ul>
 
+<li class="one_half first">
 
-
-          <footer class="center"><a class="btn" href="#">Phasellus pede mauris</a></footer>
-        </section>
-      </div>
-
+<blockquote>{tittle}</blockquote>
+              <figure class="clear"><img class="circle" src="../demo/60x60.png" alt="" />
+                <figcaption>
+                  <h6 class="heading">{heading}</h6>
+                  <em>{quate}</em></figcaption>
+              </figure>
+</li>
     )
 }
 

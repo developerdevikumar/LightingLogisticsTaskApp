@@ -3,8 +3,8 @@ import Banner from '../../Layout/Components/Banner';
 import CardList from './Components/CardList';
 import ItemList from './Components/ItemList';
 import BoxList from './Components/BoxList';
-import MessageItem from './Components/MessageItem';
-import PortifiloItem from './Components/PortifiloItem';
+import MessageList from './Components/MessageList';
+import PortifiloList from './Components/PortifiloList';
 
 function Home() {
     return (
@@ -13,8 +13,8 @@ function Home() {
 <CardList />
 <ItemList />
 <BoxList />
-<MessageItem />
-<PortifiloItem/>
+<MessageList />
+<PortifiloList />
         </div>
     )
 }

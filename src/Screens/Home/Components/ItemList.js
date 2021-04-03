@@ -16,7 +16,7 @@ function ItemList() {
 <i class="fas fa-newspaper"></i>
 </Item>
 
-<Item className="fas fa-newspaper" tittle="gyghjhhugtfrttygvh" description="kbjhkjhjhyugfytvvh" description="KKCFLDWKJFKMLSDJFKIOK  ">
+<Item className="fas fa-newspaper" tittle="gyghjhhugtfrttygvh" description="kbjhkjhjhyugfytvvh">
 <i class="fas fa-newspaper"></i>
 </Item>
 <Item className="fas fa-motorcycle" tittle="gyuguhugytfygtyuyg" description="poiuytrdyfghjhytdrsetdfcgvhtcfghb" />
