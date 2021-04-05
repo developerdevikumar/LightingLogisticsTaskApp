@@ -1,10 +1,10 @@
 import React from 'react'
-import PeopleItem from './Components/PeopleItem'
+import PeopleLIst from './Components/PeopleLIst'
 
 function Gallery() {
     return (
         <div>
-<PeopleItem />
+<PeopleLIst />
         </div>
     )
 }

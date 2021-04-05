@@ -9,10 +9,9 @@ function BoxList() {
       <h6 className="heading underline font-x2">Eros cum sociis natoque</h6>
     </div>
     <ul className="nospace group">
-      <li className="one_quarter">
+
       <BoxItem tittle="fdghthk" />
 
-      </li>
     </ul>
     {/* ################################################################################################ */}
   </section>

@@ -12,17 +12,17 @@ function ItemList() {
     </div>
     <ul class="nospace group overview btmspace-80">
 
-<Item  tittle="gjhhjghjghkk" description="iouiouy87truytuytytrffr5ty" >
-<i class="fas fa-newspaper"></i>
+<Item  tittle="MALESUADA FAMES"  class="fas fa-newspaper" description="iouiouy87truytuytytrffr5ty" >
+<i></i>
 </Item>
 
-<Item className="fas fa-newspaper" tittle="gyghjhhugtfrttygvh" description="kbjhkjhjhyugfytvvh">
+<Item className="fas fa-newspaper" tittle="ELEIFEND AUGUE" description="kbjhkjhjhyugfytvvh">
 <i class="fas fa-newspaper"></i>
 </Item>
-<Item className="fas fa-motorcycle" tittle="gyuguhugytfygtyuyg" description="poiuytrdyfghjhytdrsetdfcgvhtcfghb" />
-<Item className="fas fa-motorcycle" tittle="kjhgfcghjgutfyghvjfychg" description="yughtfuy7tuyy8" />
-<Item className="fas fa-motorcycle" tittle="uiiuhugyi78t67tuyu" description="ycftyguygguyguuyg" />
-<Item className="fas fa-motorcycle" tittle="uiyugjhgyughughvghj" description="hifguyftgugfgvhjgv" />
+<Item className="fas fa-motorcycle" tittle="CONSECTETUER EUISMOD" description="poiuytrdyfghjhytdrsetdfcgvhtcfghb" />
+<Item className="fas fa-motorcycle" tittle="CONDIMENTUM VITAE" description="yughtfuy7tuyy8" />
+<Item className="fas fa-motorcycle" tittle="PRAESENT ELEMENTUM" description="ycftyguygguyguuyg" />
+<Item className="fas fa-motorcycle" tittle="POSUERE CURABITUR" description="hifguyftgugfgvhjgv" />
 
 </ul>
     <footer class="center"><a class="btn" href="#">Text button </a></footer>

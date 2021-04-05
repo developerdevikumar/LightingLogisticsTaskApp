@@ -1,46 +1,19 @@
 import React from 'react'
-import PeopleLIst from './PeopleLIst'
+import logo  from "./logo.png";
 
-function PeopleItem() {
+function PeopleItem({text,tittle}) {
     return (
 <>
-<div className="wrapper row3">
-      <main className="hoc container clear">
-        {/* main body */}
-        {/* ################################################################################################ */}
-        <div className="content">
-          {/* ################################################################################################ */}
-          <div id="gallery">
-            <figure>
-              <PeopleLIst tittle="jhsdjks" text="kjj" />
+<figure>
+              <header className="heading">{tittle}</header>
+     <ul classname="nospace clear">
+  <li className="one_quarter first"><a href="#"><img src={logo}alt /></a></li>
+  <li className="one_quarter"><a href="#"><img src={logo} alt /></a></li> <li className="one_quarter"><a href="#"><img src={logo} alt /></a></li> <li className="one_quarter"><a href="#"><img src={logo} alt /></a></li>
 
+</ul>
+
+              <figcaption>{text}</figcaption>
             </figure>
-          </div>
-          {/* ################################################################################################ */}
-          {/* ################################################################################################ */}
-          <nav className="pagination">
-            <ul>
-              <li><a href="#">« Previous</a></li>
-              <li><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><strong>…</strong></li>
-              <li><a href="#">6</a></li>
-              <li className="current"><strong>7</strong></li>
-              <li><a href="#">8</a></li>
-              <li><a href="#">9</a></li>
-              <li><strong>…</strong></li>
-              <li><a href="#">14</a></li>
-              <li><a href="#">15</a></li>
-              <li><a href="#">Next »</a></li>
-            </ul>
-          </nav>
-          {/* ################################################################################################ */}
-        </div>
-        {/* ################################################################################################ */}
-        {/* / main body */}
-        <div className="clear" />
-      </main>
-    </div>
 </>
 
     )
